@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1061907170882",
+    "project_id": "kpaman-5191d",
+    "storage_bucket": "kpaman-5191d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061907170882:android:2077c5814f4225afa18fdb",
+        "android_client_info": {
+          "package_name": "com.example.kpaman"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIAJieJvwzIXUiV_Au-SVDmOSaNG21ePs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

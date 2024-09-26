@@ -46,7 +46,7 @@ class _OnboardingState extends State<Onboarding> {
                       children: [
                         SvgPicture.asset(
                           contents[i].image,
-                          height: 250,  // Adjust image size for better fit
+                          height: 200,  // Adjust image size for better fit
                         ),
                         SizedBox(height: 20),  // Add spacing between image and text
                         Text(
