@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'onb_content.dart';
+import '../auth/login_screen.dart';
 
 class Onboarding extends StatefulWidget {
   @override
@@ -87,6 +88,10 @@ class _OnboardingState extends State<Onboarding> {
               onPressed: () {
                 if (currentIndex == contents.length - 1) {
                   // Navigate to the next screen or home
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => LoginPage())
+                  );
                 } else {
                   _controller.nextPage(
                     duration: Duration(milliseconds: 100),
@@ -125,3 +130,5 @@ class _OnboardingState extends State<Onboarding> {
     );
   }
 }
+
+
